@@ -326,7 +326,6 @@ function L() {
 
 function TouchStart(e) {
     if (e.touches.length > 0) {
-        e.preventDefault();
         A.x = e.touches[0].clientX;
         A.y = e.touches[0].clientY;
 
@@ -347,7 +346,6 @@ function TouchStart(e) {
 
 function TouchMove(e) {
     if (e.touches.length > 0) {
-        e.preventDefault();
         A.x = e.touches[0].clientX;
         A.y = e.touches[0].clientY;
 

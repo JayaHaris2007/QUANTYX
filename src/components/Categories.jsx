@@ -14,7 +14,7 @@ const iconMap = {
 
 export default function Categories() {
     return (
-        <section id="categories" className="py-20 sm:py-28 px-4 sm:px-6 relative">
+        <section id="categories" className="py-20 sm:py-28 px-4 sm:px-6 relative overflow-hidden">
             {/* Ambient glow */}
             <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-secondary/5 rounded-full blur-[100px] pointer-events-none" />
 
